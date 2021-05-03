@@ -1,4 +1,4 @@
-# NYCU-Software-Testing-2021-La8
+# NYCU-Software-Testing-2021-Lab8
 Fuzzing test lab
 
 這是簡單的 bmp  format 灰階轉換程式，裡面好像有隱藏的弱點會讓程式出問題，麻煩你用模糊測試找到問題，並幫我修復他。
