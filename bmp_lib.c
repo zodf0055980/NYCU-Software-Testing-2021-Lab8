@@ -140,6 +140,7 @@ int bmp_transform(bmpimage *img, char *name)
     img->transform_data = malloc(image_size * sizeof(char));
     if (!img->transform_data)
     {
+        free(img->data);
         printf("malloc fail.\n");
         return 1;
     }
